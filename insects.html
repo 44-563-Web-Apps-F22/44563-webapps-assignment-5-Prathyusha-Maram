@@ -11,9 +11,26 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-</head>
     </head>
     <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" dtaa-bs-toggle="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="basic.html">BASIC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">ADVANCED</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         <h1 style="font-style: italic;font-family:Georgia, 'Times New Roman', Times, serif;">Insects by <span style="color: crimson;">Prathyusha Maram</span></h1>
         <div class="container">
             <div class="row">
@@ -122,5 +139,68 @@
             </div>
           </div>
           <br>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+              <li><a class="dropdown-item" href="advanced.html">Advance</a></li>
+            </ul>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" placeholder="Enter your email address:" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+              <label for="insects" class="form-label">Insects</label>
+              <input type="text" placeholder="Enter insects name:" class="form-control" for="insects">
+              <div id="insectsChoice" class="form-text">Enter your Insect.</div>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <br>
+          <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img src="antlion.jpg" class="card-img-top" alt="Antlion">
+              <div class="card-body">
+                <h5 class="card-title">Antlions</h5>
+                <p class="card-text">The antlions are a group of about 2,000 species of insect in the 
+                  neuropteran family Myrmeleontidae. They are known for the predatory habits of their 
+                  larvae, which mostly dig pits to trap passing ants or other prey. In North America, 
+                  the larvae are sometimes referred to as doodlebugs because of the marks they leave in the sand.</p>
+                <a href="https://en.wikipedia.org/wiki/Antlion" class="btn btn-primary">About</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="monarch.jpg" class="card-img-top" alt="Monarch">
+              <div class="card-body">
+                <h5 class="card-title">Monarch Butterfly</h5>
+                <p class="card-text">The monarch butterfly or simply monarch (Danaus plexippus) is a 
+                  milkweed butterfly (subfamily Danainae) in the family Nymphalidae. Other common 
+                  names, depending on region, include milkweed, common tiger, wanderer, and black-veined 
+                  brown. It is amongst the most familiar of North American butterflies and an iconic 
+                  pollinator, although it is not an especially effective pollinator of milkweeds.</p>
+                <a href="https://en.wikipedia.org/wiki/Monarch_butterfly" class="btn btn-primary">About</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="pupa.jpg" class="card-img-top" alt="Pupa">
+              <div class="card-body">
+                <h5 class="card-title">Pupa</h5>
+                <p class="card-text">A pupa (Latin: pupa, "doll"; plural: pupae) is the life stage of some 
+                  insects undergoing transformation between immature and mature stages. Insects that go 
+                  through a pupal stage are holometabolous: they go through four distinct stages in their 
+                  life cycle, the stages thereof being egg, larva, pupa, and imago. </p>
+                <a href="https://en.wikipedia.org/wiki/Pupa" class="btn btn-primary">About</a>
+              </div>
+            </div>
+          </div>
     </body>
 </html>
